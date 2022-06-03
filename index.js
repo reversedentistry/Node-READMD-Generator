@@ -30,7 +30,7 @@ const questions = [
         type: "checkbox", 
         name: "license", 
         message: "Please specify a license used.", 
-        choices: 
+        choices: ["Apache", "MIT", "ISC", "GNU", "Mozilla", "Boost"],
 
 
     },
