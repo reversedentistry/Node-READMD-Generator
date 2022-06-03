@@ -27,6 +27,14 @@ const questions = [
         message: "Enter any usage instructions."
     },    
     {
+        type: "checkbox", 
+        name: "license", 
+        message: "Please specify a license used.", 
+        choices: 
+
+
+    },
+    {
         type: "input", 
         name: "contribution",
         message: "Enter any contribution guidelines." 
