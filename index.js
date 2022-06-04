@@ -27,14 +27,6 @@ const questions = [
         message: "Enter any usage instructions."
     },    
     {
-        type: "checkbox", 
-        name: "license", 
-        message: "Please specify a license used.", 
-        choices: ["Apache", "MIT", "ISC", "GNU", "Mozilla", "Boost"],
-
-
-    },
-    {
         type: "input", 
         name: "contribution",
         message: "Enter any contribution guidelines." 
@@ -43,6 +35,14 @@ const questions = [
         type: "input", 
         name: "tests",
         message: "Enter any tests you'd like to include." 
+    },
+    {
+        type: "checkbox", 
+        name: "license", 
+        message: "Please specify a license used.", 
+        choices: ["Apache", "MIT", "ISC", "GNU", "Mozilla", "Boost", "None"],
+
+
     }
 ];
 
