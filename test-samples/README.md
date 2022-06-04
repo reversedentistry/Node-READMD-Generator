@@ -1,6 +1,6 @@
-# title 
+# title
 
-  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
 
@@ -19,21 +19,21 @@
 
   ## Usage
 
-  usage
+ usage
 
   ## Contributions
 
-  contrib
+ contrib
 
   ## Tests
 
-  tests
+ tests
 
   ## License 
 
-  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-  This project is [GNU](https://choosealicense.com/licenses/gpl-3.0/) licensed.
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+    This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
 
   ## Questions
-  - GitHub: [name](profile link) <br>
-  - Email: email
+ - GitHub: [username](profile link) <br>
+ - Email: email
