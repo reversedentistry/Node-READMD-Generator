@@ -50,10 +50,6 @@ function renderLicenseSection(license) {
   }
 };
 
-function questionSection(username, link, email) {
-  
-}
-
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
@@ -86,9 +82,8 @@ function generateMarkdown(data) {
     ${renderLicenseSection(license)}
 
     ## Questions
-
-
-      `;
+    - GitHub: [${data.username}](${data.link})
+    - Email: ${data.email}`;
 }
 
 module.exports = generateMarkdown;
