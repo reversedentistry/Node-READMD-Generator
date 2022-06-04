@@ -7,23 +7,23 @@
   desc
 
   ## Table of Contents
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [Contributions](#contributions)
-    - [Tests](#tests)
-    - [License](#license)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contributions](#contributions)
+  - [Tests](#tests)
+  - [License](#license)
 
   ## Installation
 
-    install
+  install
 
   ## Usage
 
-    usage
+  usage
 
   ## Contributions
 
-    contrib
+  contrib
 
   ## Tests
 
@@ -31,9 +31,9 @@
 
   ## License 
 
-    [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-    This project is [GNU](https://choosealicense.com/licenses/gpl-3.0/) licensed.
+  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+  This project is [GNU](https://choosealicense.com/licenses/gpl-3.0/) licensed.
 
   ## Questions
-    - GitHub: [name](profile link) <br>
-    - Email: email
+  - GitHub: [name](profile link) <br>
+  - Email: email
