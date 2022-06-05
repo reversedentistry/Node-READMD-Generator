@@ -36,62 +36,75 @@ const questions = [
     {
         type: "input",
         name: "installation",
-        message: "Enter any installation instructions."
-
+        message: "Enter any installation instructions.",
+        
     },
     {
         type: "input",
         name: "usage",
-        message: "Enter any usage instructions."
+        message: "Enter any usage instructions.",
+        default: "",
     },
     {
         type: "input",
         name: "contribution",
-        message: "Enter any contribution guidelines."
+        message: "Enter any contribution guidelines.", 
+        default: "",
     },
     {
         type: "input",
         name: "tests",
-        message: "Enter any tests you'd like to include."
+        message: "Enter any tests you'd like to include.", 
+        default: "",
     },
     {
         type: "checkbox",
         name: "license",
         message: "Please specify a license used.",
         choices: ["Apache", "MIT", "ISC", "GNU", "Mozilla", "Boost", "None"],
-        validate: async (checkbox)  => {
-            if (checkbox.length == 1) {
-                return true; 
-            } else {
-                console.log("Please choose one option."); 
-                return false; 
-            }
-        }
-       
+              
     },
     {
         type: "input", 
         name: "username", 
         message: "Please enter your GitHub username.",
+        validate: async (input)  => {
+            if (input) {
+                return true; 
+            } else {
+                console.log("Username is required."); 
+                return false; 
+            }
+        }
         
     }, 
     {
         type: "input", 
         name: "link", 
         message: "Please enter the link to your GitHub profile.",
+        validate: async (input)  => {
+            if (input) {
+                return true; 
+            } else {
+                console.log("Profile link is required."); 
+                return false; 
+            }
+        }
     },    
     {
         type: "input", 
         name: "email", 
         message: "Please enter your email.",
-        validate: emailInput => {
-            if (emailInput) {
+        validate: async (input)  => {
+            if (input) {
                 return true; 
             } else {
-                console.log("Email is required.");
+                console.log("Email is required."); 
                 return false; 
             }
-    }}, 
+        }
+        
+    }, 
 ];
 
 // TODO: Create a function to write README file
