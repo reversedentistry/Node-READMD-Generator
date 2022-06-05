@@ -74,23 +74,23 @@ function generateMarkdown(data) {
 
   ## Usage
 
- ${data.usage}
+  ${data.usage}
 
   ## Contributions
 
- ${data.contribution}
+  ${data.contribution}
 
   ## Tests
 
- ${data.tests}
+  ${data.tests}
 
   ## License 
 
   ${renderLicenseSection(data.license)}
 
   ## Questions
- - GitHub: [${data.username}](${data.link})
- - Email: ${data.email}`
+  GitHub: [${data.username}](${data.link})
+  Email: ${data.email}`
 }
 
 module.exports = generateMarkdown;
