@@ -62,6 +62,14 @@ const questions = [
         name: "license",
         message: "Please specify a license used.",
         choices: ["Apache", "MIT", "ISC", "GNU", "Mozilla", "Boost", "None"],
+        validate: async (checkbox)  => {
+            if (checkbox.length == 1) {
+                return true; 
+            } else {
+                console.log("Please choose one option."); 
+                return false; 
+            }
+        }
               
     },
     {

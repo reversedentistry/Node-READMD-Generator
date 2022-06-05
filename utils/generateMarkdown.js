@@ -45,8 +45,7 @@ function renderLicenseSection(license) {
   if (license == "None") {
     return `This project is unlicensed.`;
   } else {
-    return `${renderLicenseBadge(license)}
-    ${renderLicenseLink(license)}`
+    return `${renderLicenseBadge(license)} ${renderLicenseLink(license)}`
   }
 };
 
@@ -89,8 +88,8 @@ function generateMarkdown(data) {
   ${renderLicenseSection(data.license)}
 
   ## Questions
-  GitHub: [${data.username}](${data.link})
-  Email: ${data.email}`
+  - GitHub: [${data.username}](${data.link}) 
+  - Email: ${data.email}`
 }
 
 module.exports = generateMarkdown;
