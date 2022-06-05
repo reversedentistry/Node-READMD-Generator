@@ -1,10 +1,10 @@
-# title
+# Title
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  
 
   ## Description
 
-  desc
+  descr ex
 
   ## Table of Contents
   - [Installation](#installation)
@@ -15,7 +15,7 @@
 
   ## Installation
 
-  install
+  install 
 
   ## Usage
 
@@ -23,17 +23,17 @@
 
   ## Contributions
 
- contrib
+ 
 
   ## Tests
 
- tests
+ 
 
   ## License 
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-    This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
+  
+    
 
   ## Questions
- - GitHub: [username](profile link) <br>
- - Email: email
+  GitHub: [reversedentistry](link.com)
+  Email: email
