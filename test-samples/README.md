@@ -23,7 +23,7 @@
 
   ## Contributions
 
-  Please contact me
+  Please contact me. 
 
   ## Tests
 
