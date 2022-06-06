@@ -1,10 +1,10 @@
-# Example Title
+# README Generator
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
 
-  Example desc
+  Creates a README through user prompts
 
   ## Table of Contents
   - [Installation](#installation)
@@ -15,19 +15,19 @@
 
   ## Installation
 
-  install ex
+  Node, Inquirer
 
   ## Usage
 
-  usage ex
+  Run Node, enter answers
 
   ## Contributions
 
-  contrib ex
+  Please contact me
 
   ## Tests
 
-  tests ex
+  jest module
 
   ## License 
 
