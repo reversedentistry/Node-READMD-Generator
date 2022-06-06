@@ -43,19 +43,19 @@ const questions = [
         type: "input",
         name: "usage",
         message: "Enter any usage instructions.",
-        default: "",
+        
     },
     {
         type: "input",
         name: "contribution",
         message: "Enter any contribution guidelines.", 
-        default: "",
+        
     },
     {
         type: "input",
         name: "tests",
         message: "Enter any tests you'd like to include.", 
-        default: "",
+        
     },
     {
         type: "checkbox",
@@ -117,7 +117,7 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(data) {
-    fs.writeFile("./test-samples/README.md", generate(data), (err) => {
+    fs.writeFile("./generated/README.md", generate(data), (err) => {
         if (err) {
         console.log(err);
     } else {
